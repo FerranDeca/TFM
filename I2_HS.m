@@ -20,15 +20,6 @@ function [I_2] = I2_HS(r,sigma,method,multi)
             end
         end
 
-    %     P = eye(N,N) - (1/N)*ones(N,1)*ones(N,1)';
-    %     numerador= P*mkernel(:,:,1)*P*mkernel(:,:,2);
-    %     denominador = trace(mkernel(:,:,1)'*mkernel(:,:,1))*trace(mkernel(:,:,2)'*mkernel(:,:,2));
-    %     I_2 = trace(numerador)/sqrt(denominador);
-    % 
-    %     P = eye(N,N) - (1/N)*ones(N,1)*ones(N,1)';
-    %     numerador= P*mkernel(:,:,1)*P*mkernel(:,:,2);
-    %     denominador = trace(P*mkernel(:,:,1)*mkernel(:,:,1)*P)*trace(P*mkernel(:,:,2)*mkernel(:,:,2)*P);
-    %     I_2 = trace(numerador)/sqrt(denominador);
 
 %         P = eye(N,N) - (1/N)*ones(N,1)*ones(N,1)';
 %         numerador= trace((P*mkernel(:,:,1)*P*mkernel(:,:,2)*P)'*(P*mkernel(:,:,1)*P*mkernel(:,:,2)*P));
